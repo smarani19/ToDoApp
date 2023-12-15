@@ -8,7 +8,7 @@ var app = Express() ;
 
 app.use(cors()) ; 
 
-var mongourl = "mongodb+srv://smb:M5DOK43ioDRQiUgB@cluster0.rylmxfi.mongodb.net/?retryWrites=true&w=majority"
+var mongourl = "mongodb+srv://<Cluster_Username>:<Password>@cluster0.rylmxfi.mongodb.net/?retryWrites=true&w=majority"
 var databasename = "todoapp" ;
 var database;
 app.listen(5050,() => {
